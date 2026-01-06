@@ -2,7 +2,7 @@
 
 **Green MLOps** is a closed-loop inference framework that prioritizes energy efficiency without sacrificing significant accuracy. Inspired by **biophysics (protein folding gradients)**, this project implements a dynamic controller that filters and routes inference requests based on their estimated "metabolic cost" (uncertainty & system congestion).
 
-![Bio-Inspired Controller](images/folding.png)
+![Bio-Inspired Controller](folding.png)
 
 ## 🚀 Key Features
 - **Bio-Inspired Controller**: A dynamic threshold mechanism ($\tau(t)$) that decides when to execute or skip inference, effectively acting as an "Early Exit".
