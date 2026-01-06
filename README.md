@@ -7,6 +7,9 @@ The key idea is simple:
 > **We do not seek the global optimum if it is energetically irrational.**  
 > We stop at the *first stable minimum* that guarantees correct behavior at minimal cost.
 
+## 📄 PrePrint
+**[Read the Full Paper (PDF)](GreenMLOps_IEEE_Paper.pdf)**
+
 ---
 
 ## 🧠 Bio-Inspired Principle
