@@ -8,7 +8,7 @@ The key idea is simple:
 > We stop at the *first stable minimum* that guarantees correct behavior at minimal cost.
 
 ## 📄 PrePrint
-**[Read the Full Paper (PDF)](GreenMLOps_IEEE_Paper.pdf)**
+**[Read the Full Paper (PDF)](Preprint.pdf)**
 
 ---
 
