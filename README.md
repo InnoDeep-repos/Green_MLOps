@@ -11,6 +11,20 @@ The key idea is simple:
 **[Read the Full Paper (PDF)](Preprint.pdf)**
 
 ---
+## 📊 Bio-Inspired Controller Illustration
+
+<p align="center">
+  <img src="Folding.png" width="500">
+</p>
+
+<p align="center">
+  <em>
+  Figure 1 — Bio-inspired energy landscape.  
+  The controller avoids the global minimum (too costly) and converges toward a stable local basin using a dynamic threshold τ(t).
+  </em>
+</p>
+
+---
 
 ## 🧠 Bio-Inspired Principle
 
@@ -37,20 +51,6 @@ This acts as an **energy-aware early-exit mechanism** driven by uncertainty and 
 
 ---
 
-## 📊 Bio-Inspired Controller Illustration
-
-<p align="center">
-  <img src="Folding.png" width="500">
-</p>
-
-<p align="center">
-  <em>
-  Figure 1 — Bio-inspired energy landscape.  
-  The controller avoids the global minimum (too costly) and converges toward a stable local basin using a dynamic threshold τ(t).
-  </em>
-</p>
-
----
 
 ## 🚀 Key Features
 
@@ -83,7 +83,7 @@ This acts as an **energy-aware early-exit mechanism** driven by uncertainty and 
 ## 🏥 Real-World Deployment: SmartDiag Radiology
 
 <p align="center">
-  <img src="dashboard.png" width="650">
+  <img src="Dashboard.png" width="650">
 </p>
 
 <p align="center">
