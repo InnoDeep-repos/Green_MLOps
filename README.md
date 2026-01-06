@@ -2,7 +2,7 @@
 
 **Green MLOps** is a closed-loop inference framework that prioritizes energy efficiency without sacrificing significant accuracy. Inspired by **biophysics (protein folding gradients)**, this project implements a dynamic controller that filters and routes inference requests based on their estimated "metabolic cost" (uncertainty & system congestion).
 
-![Bio-Inspired Controller](folding.png)
+![Bio-Inspired Controller](Folding.png)
 
 ## 🚀 Key Features
 - **Bio-Inspired Controller**: A dynamic threshold mechanism ($\tau(t)$) that decides when to execute or skip inference, effectively acting as an "Early Exit".
@@ -11,6 +11,13 @@
   - **Path B**: High-throughput batched inference via **NVIDIA Triton Inference Server**.
 - **Real-Time Sustainability Metrics**: Tracks Carbon ($gCO_2eq$) and Energy ($kWh$) per request using **CodeCarbon**.
 - **Validated on A100**: Achieved **42% latency reduction** with <0.5% accuracy loss on DistilBERT/ResNet benchmarks.
+- 
+![Dashboard](dashboard.png)
+Real-world deployment: SmartDiag Radiology Dashboard powered
+by our Green MLOps stack. The controller manages multimodal inferences
+for tumor detection (red bounding box), balancing A100 energy consumption
+against diagnostic latency requirements.
+- 
 
 ## 📂 Repository Structure
 - `src/green_mlops.py`: The main Python script containing the full pipeline (Setup, Model Export, Bio-Controller Logic, Benchmark).
